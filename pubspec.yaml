@@ -1,0 +1,26 @@
+name: video_storage_query
+description: This package provides methods to query for video files on your storage. It is also is to generate thumbnails for videos
+version: 1.0.0
+homepage: https://github.com/rans-rans/video_storage_query.git
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.rans_innovations.video_storage_query
+        pluginClass: VideoStorageQueryPlugin
